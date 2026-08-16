@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FruitVerse — Nature's Goodness</title>
+<meta name="description" content="FruitVerse — beautiful fruit facts, ideas and inspiration.">
+<style>
+:root{--green:#214d22;--lime:#8abf3f;--cream:#fffaf0;--gold:#e6a52b;--text:#20301f}
+*{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:var(--cream);line-height:1.6}
+header{position:sticky;top:0;z-index:5;background:rgba(255,250,240,.96);border-bottom:1px solid #e8dfc9}
+.nav{max-width:1100px;margin:auto;padding:16px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-size:25px;font-weight:800;color:var(--green);text-decoration:none}.logo span{color:var(--lime)}
+nav a{color:var(--green);text-decoration:none;margin-left:18px;font-weight:700}
+.hero{max-width:1100px;margin:40px auto;padding:0 22px;display:grid;grid-template-columns:1.05fr .95fr;gap:34px;align-items:center}
+.badge{display:inline-block;background:#e8f2d6;color:var(--green);padding:8px 13px;border-radius:999px;font-weight:700}
+h1{font-size:clamp(44px,7vw,76px);line-height:.98;margin:18px 0;color:var(--green)}
+.hero p{font-size:19px;max-width:620px}.button{display:inline-block;background:var(--green);color:white;text-decoration:none;padding:13px 20px;border-radius:12px;font-weight:800;margin-top:10px}
+.hero img{width:100%;border-radius:24px;box-shadow:0 20px 50px rgba(33,77,34,.18)}
+section{max-width:1100px;margin:75px auto;padding:0 22px}
+.section-title{text-align:center;color:var(--green);font-size:38px;margin-bottom:10px}.section-sub{text-align:center;max-width:680px;margin:0 auto 30px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:white;border:1px solid #eee3ce;border-radius:18px;padding:22px;box-shadow:0 8px 25px rgba(0,0,0,.05)}
+.emoji{font-size:42px}.card h3{color:var(--green);margin:7px 0}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}.gallery img{width:100%;border-radius:20px;box-shadow:0 12px 35px rgba(0,0,0,.1)}
+.cta{background:var(--green);color:white;border-radius:25px;padding:42px;text-align:center}.cta h2{font-size:38px;margin:0 0 10px}.cta a{background:#fff;color:var(--green)}
+footer{margin-top:70px;background:#173918;color:#eaf4df;padding:30px 22px;text-align:center}
+.small{font-size:14px;opacity:.8}
+@media(max-width:760px){nav{display:none}.hero{grid-template-columns:1fr;margin-top:25px}.cards,.gallery{grid-template-columns:1fr}section{margin:55px auto}}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <a class="logo" href="#">Fruit<span>Verse</span> 🍃</a>
+    <nav><a href="#about">About</a><a href="#fruits">Fruits</a><a href="#gallery">Gallery</a><a href="#follow">Follow</a></nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="about">
+  <div>
+    <span class="badge">NATURE'S GOODNESS</span>
+    <h1>Small fruit.<br>Big stories.</h1>
+    <p>Welcome to FruitVerse — a visual place for beautiful fruit facts, simple ideas and colourful inspiration.</p>
+    <a class="button" href="#fruits">Explore FruitVerse</a>
+  </div>
+  <div>
+    <img src="images/kiwi-infographic.png" alt="FruitVerse kiwi infographic">
+  </div>
+</section>
+
+<section id="fruits">
+  <h2 class="section-title">Explore the fruit world</h2>
+  <p class="section-sub">Discover simple, shareable fruit content designed to make learning about food more interesting.</p>
+  <div class="cards">
+    <article class="card"><div class="emoji">🥝</div><h3>Kiwi</h3><p>Bright, green and packed with interesting nutrition facts.</p></article>
+    <article class="card"><div class="emoji">🥭</div><h3>Mango</h3><p>A tropical favourite with a fascinating story and many varieties.</p></article>
+    <article class="card"><div class="emoji">🍓</div><h3>Strawberry</h3><p>Sweet, colourful and perfect for visual fruit content.</p></article>
+    <article class="card"><div class="emoji">🍉</div><h3>Watermelon</h3><p>A refreshing fruit with a naturally high water content.</p></article>
+    <article class="card"><div class="emoji">🍊</div><h3>Orange</h3><p>A classic citrus fruit with vitamin C and plenty of flavour.</p></article>
+    <article class="card"><div class="emoji">🫐</div><h3>Blueberry</h3><p>Tiny berries with a big place in the fruit world.</p></article>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2 class="section-title">FruitVerse Gallery</h2>
+  <p class="section-sub">A preview of the visual style behind the brand.</p>
+  <div class="gallery">
+    <img src="images/kiwi-infographic.png" alt="FruitVerse kiwi poster">
+    <img src="images/fruit-facts-collection.png" alt="FruitVerse fruit facts collection">
+  </div>
+</section>
+
+<section id="follow">
+  <div class="cta">
+    <h2>Follow FruitVerse</h2>
+    <p>More fruit facts, beautiful visuals and fresh ideas are coming.</p>
+    <a class="button" href="https://www.pinterest.com/" target="_blank" rel="noopener">Visit Pinterest</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <strong>FruitVerse 🍃</strong>
+  <p class="small">Beautiful fruit content • Fresh ideas • Nature's goodness</p>
+  <p class="small">Replace the Pinterest button with your own profile link when your account is ready.</p>
+</footer>
+</body>
+</html>
